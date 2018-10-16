@@ -1,1 +1,152 @@
-@font-face{font-family:helios;src:url(../fonts/OpenSans-Regular-webfont.eot);src:url(../fonts/OpenSans-Regular-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/OpenSans-Regular-webfont.woff) format('woff'),url(../fonts/OpenSans-Regular-webfont.ttf) format('truetype');font-weight:400;font-style:normal}@font-face{font-family:OpenSans;src:url(../fonts/OpenSans-Regular-webfont.eot);src:url(../fonts/OpenSans-Regular-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/OpenSans-Regular-webfont.woff) format('woff'),url(../fonts/OpenSans-Regular-webfont.ttf) format('truetype'),url(../fonts/OpenSans-Regular-webfont.svg#open_sansregular) format('svg');font-weight:400;font-style:normal}@font-face{font-family:OpenSans-Semibold;src:url(../fonts/OpenSans-Semibold-webfont.eot);src:url(../fonts/OpenSans-Semibold-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/OpenSans-Semibold-webfont.woff) format('woff'),url(../fonts/OpenSans-Semibold-webfont.ttf) format('truetype'),url(../fonts/OpenSans-Semibold-webfont.svg#open_sansregular) format('svg');font-weight:400;font-style:normal}@font-face{font-family:OpenSans-Bold;src:url(../fonts/OpenSans-Bold-webfont.eot);src:url(../fonts/OpenSans-Bold-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/OpenSans-Bold-webfont.woff) format('woff'),url(../fonts/OpenSans-Bold-webfont.ttf) format('truetype'),url(../fonts/OpenSans-Bold-webfont.svg#open_sansregular) format('svg');font-weight:400;font-style:normal}@font-face{font-family:OpenSans-ExtraBold;src:url(../fonts/OpenSans-ExtraBold-webfont.eot);src:url(../fonts/OpenSans-ExtraBold-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/OpenSans-ExtraBold-webfont.woff) format('woff'),url(../fonts/OpenSans-ExtraBold-webfont.ttf) format('truetype'),url(../fonts/OpenSans-ExtraBold-webfont.svg#open_sansregular) format('svg');font-weight:400;font-style:normal}.font075{font-size:.75em}.font120{font-size:1.2em}.font110{font-size:1em}a,b,body,center,code,div,h1,h2,h3,h4,h5,h6,html,i,li,ol,p,s,span,time,u{margin:0;border:0;color:#08283e;vertical-align:baseline;font:100% OpenSans,Arial,Helvetica,"Bitstream Vera Sans","DejaVu Sans","Liberation Sans",Geneva,sans-serif}body{font-size:16px;line-height:24px;-webkit-text-size-adjust:100%}a{text-decoration:none}a:hover{text-decoration:none}body,html{min-height:100%;-webkit-font-smoothing:antialiased;height:100%;width:100%;overflow-x:hidden}body{min-width:320px}h1{margin-bottom:0}a,li{outline:0}.title>a,.title>h2,h4{margin-bottom:5px}h4>span{color:#000;font:1.9em/1.1em helios,heliosthinregular,serif}h5{background:0 0;font:1.5em/2em helios,heliosthinregular,serif;padding:15px 0 0}.content_block{overflow:hidden;padding:20px 4% 0 2%}.content_block>div{float:right;width:65%}.right_block{overflow:hidden}.content_block>div:first-child{width:31%;text-align:center;float:left}#mobile_navigation{display:none}.block{display:block}p{font-size:16px;line-height:24px}.center{text-align:center}.content-block{font-size:16px;line-height:24px;color:#333;padding-top:30px}.content-block a{color:#40aaed;display:inline-block}.content-block a span{color:#40aaed}#navigation{font:14px/24px OpenSans,Arial,Helvetica,sans-serif}#navigation:after{content:" ";width:0;height:0;clear:both;visibility:hidden}#navigation>li{float:left;margin-right:35px;position:relative}#navigation>li>a:hover{color:#40aaed}#navigation div a{text-transform:capitalize}#navigation>li>a{color:#fff;padding-right:15px;text-transform:uppercase}#navigation{float:left}#navigation>li>a{line-height:25px;height:26px;display:inline-block}#navigation a:hover{text-decoration:none;color:#40aaed}#navigation>li:hover>div{display:block;transition:all .3s linear}#navigation>li:hover a{color:#2499eb}#navigation>li:hover li a:hover{color:#2499eb}#navigation>li:hover li a{color:#fff;text-transform:capitalize}#main{padding:0 44px}#page{overflow:hidden;position:relative;min-height:100%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}#content{max-width:1416px;margin:140px auto 0;padding:0 0 369px;z-index:1;position:relative}.paragraph{text-align:justify}.title{font-size: 24px; font-family:helios}.ordered-list{list-style-type: lower-alpha}.title
+@font-face{
+  font-family:helios;
+  src:url(../fonts/OpenSans-Regular-webfont.eot);
+  src:url(../fonts/OpenSans-Regular-webfont.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/OpenSans-Regular-webfont.woff) format('woff'),
+  url(../fonts/OpenSans-Regular-webfont.ttf) format('truetype');
+  font-weight:400;font-style:normal;
+}
+@font-face{
+  font-family:OpenSans;
+  src:url(../fonts/OpenSans-Regular-webfont.eot);
+  src:url(../fonts/OpenSans-Regular-webfont.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/OpenSans-Regular-webfont.woff) format('woff'),
+  url(../fonts/OpenSans-Regular-webfont.ttf) format('truetype');
+  font-weight:400;
+  font-style:normal;
+}
+@font-face{
+  font-family:OpenSans-Semibold;
+  src:url(../fonts/OpenSans-Semibold-webfont.eot);
+  src:url(../fonts/OpenSans-Semibold-webfont.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/OpenSans-Semibold-webfont.woff) format('woff'),
+  url(../fonts/OpenSans-Semibold-webfont.ttf) format('truetype');
+  font-weight:400;font-style:normal;
+}
+@font-face{
+  font-family:OpenSans-Bold;
+  src:url(../fonts/OpenSans-Bold-webfont.eot);
+  src:url(../fonts/OpenSans-Bold-webfont.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/OpenSans-Bold-webfont.woff) format('woff'),
+  url(../fonts/OpenSans-Bold-webfont.ttf) format('truetype'),
+  url(../fonts/OpenSans-Bold-webfont.svg#open_sansregular) format('svg');
+  font-weight:400;font-style:normal;
+}
+a,b,body,center,
+code,div,h1,h2,h3,h4,h5,h6,
+html,i,li,ol,p,s,span,time,u{
+  margin:0;
+  border:0;
+  color:#08283e;
+  vertical-align:baseline;
+  font:100% OpenSans,Arial,Helvetica,"Bitstream Vera Sans","DejaVu Sans","Liberation Sans",Geneva,sans-serif;
+}
+body{
+  font-size:16px;
+  line-height:24px;
+  -webkit-text-size-adjust:100%
+}
+a{
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:none;
+}
+body,html{
+  min-height:100%;
+  -webkit-font-smoothing:antialiased;
+  height:100%;
+  width:100%;
+  overflow-x:hidden;
+}
+body{
+  min-width:320px;
+}
+h1{
+  margin-bottom:0;
+}
+a,li{
+  outline:0;
+}
+.title > a,
+.title > h2,h4{
+  margin-bottom:5px;
+}
+h4 > span{
+  color:#000;
+  font:1.9em/1.1em helios,heliosthinregular,serif;
+}
+.content_block{
+  overflow:hidden;
+  padding:20px 4% 0 2%;
+}
+.content_block > div{
+  float:right;
+  width:65%
+}
+.right_block{
+  overflow:hidden;
+}
+.content_block > div:first-child{
+  width:31%;
+  text-align:center;
+  float:left;
+}
+.block{
+  display:block;
+}
+p{
+  font-size:16px;
+  line-height:24px;
+}
+.center{
+  text-align:center;
+}
+.content-block{
+  font-size:16px;
+  line-height:24px;
+  color:#333;
+  padding-top:30px;
+}
+.content-block a{
+  color:#40aaed;
+  display:inline-block;
+}
+.content-block a span{
+  color:#40aaed;
+}
+#main{
+  padding:0 44px;
+}
+#page{
+  overflow:hidden;
+  position:relative;
+  min-height:100%;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+#content{
+  max-width:1416px;
+  margin:140px auto 0;
+  padding:0 0 369px;
+  z-index:1;
+  position:relative;
+}
+.paragraph{
+  text-align:justify;
+}
+.title{
+  font-size: 24px;
+  font-family:helios;
+}
+.ordered-list{
+  list-style-type: lower-alpha;
+}
+.page-title{
+  color: #34aeff;
+  font: 36px/42px "OpenSans-Semibold", Arial, Helvetica, sans-serif;
+  padding: 5px 0 27px;
+  margin-bottom: 0;
+  margin-top: 52px;
+}
