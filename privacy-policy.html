@@ -242,6 +242,17 @@
   </div>
 </div>
 <script src="assets/js/jquery-3.3.1.min.js" />
-<script src="assets/js/jquery.smoothscroll.js" />
+<script src="assets/js/jquery.scrollspeed.js" />
+<script>
+  $(function() {
+
+    // Default
+    jQuery.scrollSpeed(100, 800);
+
+    // Custom Easing
+    jQuery.scrollSpeed(100, 800, 'easeOutCubic');
+
+  });
+</script>
 </body>
 </html>
