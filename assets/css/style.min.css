@@ -40,6 +40,7 @@ html,i,li,ol,p,s,span,time,u{
   color:#08283e;
   vertical-align:baseline;
   font:100% OpenSans,Arial,Helvetica,"Bitstream Vera Sans","DejaVu Sans","Liberation Sans",Geneva,sans-serif;
+  scroll-behavior: smooth;
 }
 body{
   font-size:16px;
@@ -47,6 +48,7 @@ body{
   -webkit-text-size-adjust:100%
   -webkit-overflow-scrolling: touch;
   overflow-y:auto;
+  scroll-behavior: smooth;
 }
 a{
   text-decoration:none;
